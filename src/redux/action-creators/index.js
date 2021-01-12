@@ -3,11 +3,22 @@ import {services} from "../../services";
 
 const {productService}= services;
 
-export const setProducts = () => async (dispatch) => {
-  const response = await productService.getProducts();
-  const json = await response.json();
+// export const setProducts = () => async (dispatch) => {
+//   const response = await productService.getProducts();
+//   const json = await response.json();
+//
+//   dispatch({ type: SET_PRODUCTS, payload: json });
+// };
 
-  dispatch({ type: SET_PRODUCTS, payload: json });
+// можно ще так
+export const setProducts = () => (dispatch) => {
+  productService
+      .getProducts()
+      .then(response => response.json())
+      .then(products => dispatch({ type: SET_PRODUCTS, payload: products }))
+      .catch(err => console.warn(err))
+
+
 };
 
 export  const toggleItemInCart=(product)=>({type: TOGGLE_ITEM_IN_CART, payload: product})

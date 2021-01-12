@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bacba195-b97a-44b1-bc5c-b8b4a436d9ed" name="Default Changelist" comment="" />
+    <list default="true" id="bacba195-b97a-44b1-bc5c-b8b4a436d9ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product-item/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-item/ProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product-list/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-list/ProductList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action-creators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action-creators/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -64,6 +72,7 @@
       <workItem from="1610117147094" duration="7054000" />
       <workItem from="1610296185846" duration="3526000" />
       <workItem from="1610470834527" duration="3163000" />
+      <workItem from="1610476725161" duration="1610000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1610474799173</created>
